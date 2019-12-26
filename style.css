@@ -143,9 +143,9 @@ html {
   }
 }
 
-.row{
+/* .row{
     overflow: hidden; 
-}
+} */
 
 .row .col-{
     margin-bottom: -99999px;
