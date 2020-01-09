@@ -14,6 +14,10 @@ a.nostyle:visited {
   color: inherit;
 }
 
+a.nostyle:hover{
+  color: #ff4a1d!important;
+}
+
 hr.style {
     height: 12px;
     border: 0;
