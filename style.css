@@ -4,6 +4,16 @@
     height: 100%;
 }
 
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 hr.style {
     height: 12px;
     border: 0;
@@ -19,6 +29,9 @@ html {
   }
   .base-color {
     color: #ff4a1d!important;
+  }
+  .black {
+    color: #FF0000;
   }
   .btn-base {
     background-color: #ff4a1d!important;
@@ -147,7 +160,14 @@ html {
     overflow: hidden; 
 } */
 
-.row .col-{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
