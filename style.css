@@ -124,7 +124,7 @@ html {
   }
 
   #intro{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('/public/PIXNIO-246755-5700x3800.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('https://coincodex.com/en/resources/images//admin/news/blockchain-versus-ha/laptopcode.jpg:resizeboxcropjpg?1580x888');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
